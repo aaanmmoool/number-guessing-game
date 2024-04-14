@@ -1,0 +1,49 @@
+body{
+    color:white;
+    background-color: crimson;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+h3{
+    background-color: black;
+    width: 100vw;
+    text-align: center;
+    padding: 0;
+    margin: 5px;
+}
+p{
+    padding: 3px;
+    margin:   5px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+button{
+    margin:20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: azure;
+}
+.previousguess{
+    display: flex;
+    flex-direction: row;
+}
+.attemptsremaining{
+    display: flex;
+    flex-direction: row;
+}
